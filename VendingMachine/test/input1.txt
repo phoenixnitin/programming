@@ -1,0 +1,28 @@
+maxquantity, 10
+costofeachitem, 20
+login, administrator
+additem, drink 4 pepsi
+additem, drink 2 coke
+additem, snack 2 bingo
+additem, snack 4 lays
+additem, snack 4 aloo bhujiya
+adduser, admin nitin
+adduser, employee naman
+logout
+login, naman
+addcash, 100
+getitem
+buy, drink 1 2
+buy, snack 2 1
+logout
+login, nitin
+getalluser
+getitem
+deleteitem, drink 2
+decreaseitem, snack 3 2
+increaseitem, snack 3 1
+adduser, employee amit
+getalluser
+deleteuser, 4
+getitem
+getalluser
